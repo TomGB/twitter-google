@@ -1,0 +1,19 @@
+{
+  "name": "twitter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "process.js",
+  "dependencies": {
+    "google": "^2.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test-google": "node ./system-tests/test-google.js",
+    "test-file": "node ./system-tests/test-file.js",
+    "test-real-google": "use_google=true node ./system-tests/test-google.js",
+    "process": "use_google=true node ./process.js",
+    "test-process": "node ./process.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
